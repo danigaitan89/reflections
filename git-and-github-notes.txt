@@ -36,6 +36,7 @@ GIT COMMANDS
 - git config --global core.editor "subl -n -w", -n in a new window, -w wait until close the file
 - git init for creating a new repository.
 - git status show what files have changed since the last commit.
+- git reset for removing files from the staging area before doing a commit.
 
 
 GIT DIFF
