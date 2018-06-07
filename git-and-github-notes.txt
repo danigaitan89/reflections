@@ -1,0 +1,91 @@
+GIT and GIT Hub Version Control
+
+Comand for comparing versions
+
+Diff –u firstarchive secondarchive
+The lines with – were removed on the second archive.
+The lines with + were added on the second archive.
+
+CHARACTERS FOR A LINE
+
+I should use 80 to 120 characters
+
+VERSION CONTROL
+
+Dropbox save different versions.
+
+GIT
+
+GIT = british slang for unpleasant person
+Uses reference breakpoints.
+Version control = access to different versions of your code.
+Version control systems: Manual saving, dropbox, google docs, wikipedia, Git, SVN.
+Commit is part of Git.  They are the breakpoints of your document versions.
+Commit parts: ID, author, date, message.
+
+GIT COMMANDS
+
+- git log, for getting the commits of every version in the directory.
+- git diff, for comparing different versions.  Copy two commits to evaluate changes.  Scroll down to see all commits.
+- git log --stat, for all the statistics of commits done.
+- git help <command>, help for any command you need.
+- git clone, for copying files from another computer.
+- git config --global color.ui auto, for colors green for adds and red for removals.  --global is for applying settings to all Git Projects.
+- git checkout, review a commit.  Pasarse a otro commit para evaluar cómo funcionaba.
+- git checkout master, to return to the original document.
+- git config --global core.editor "subl -n -w", -n in a new window, -w wait until close the file
+- git init for creating a new repository.
+- git status show what files have changed since the last commit.
+
+
+GIT DIFF
+
+Black there were no changes.
+Red are missing in the second version.
+Green were added to the second version.
+
+REPOSITORY
+
+Is the group of files related to the file you are working with.  The current file, all the versions, all the files related and their versions.  
+With git, when you save a version, you save a copy of every file related.
+
+GIT ERRORS AND WARNING SOLUTIONS
+
+Should not be doing an octopus
+Octopus is a strategy Git uses to combine many different versions of code together. This message can appear if you try to use this strategy in an inappropriate situation.
+
+You are in 'detached HEAD' state
+HEAD is what Git calls the commit you are currently on. You can “detach” the HEAD by switching to a previous commit, which we’ll see in the next video. Despite what it sounds like, it’s actually not a bad thing to detach the HEAD. Git just warns you so that you’ll realize you’re doing it.
+
+Panic! (the 'impossible' happened)
+This is a real error message, but it’s not output by Git. Instead it’s output by GHC, the compiler for a programming language called Haskell. It’s reserved for particularly surprising errors!
+
+Takeaway We hope these errors and warnings amused you as much as they amused us! Now that you know what kind of errors Git can throw, you’re ready to start checking out previous versions of files with Caroline.
+
+GIT WORKSPACE
+
+https://raw.githubusercontent.com/git/git/master/contrib/completion/git-completion.bash
+https://raw.githubusercontent.com/git/git/master/contrib/completion/git-prompt.sh
+
+Para dejar como default SUBLIME EN GIT
+
+git config --global core.editor "'/Applications/Sublime Text 2.app/Contents/SharedSupport/bin/subl' -n -w"
+git config --global push.default upstream
+git config --global merge.conflictstyle diff3
+
+MAKING NEW REPOSITORY
+
+
+
+REFLECTIONS
+
+- How might using version control make you more confident to make changes that could break something?
+I can review through few steps what changes I've made and go back to a previous functional version.
+
+- Now that you have your workspace set up, what do you want to try using Git for?
+I would like to star make awesome changes to my website explora.gt and cowork with Susy of my development team.  Awesome things are coming!
+
+
+
+
+
