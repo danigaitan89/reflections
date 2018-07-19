@@ -11,12 +11,14 @@ automatically stay up-to-date with your remote repository?
 Describe the differences between forks, clones, and branches.  When would you
 use one instead of another?
 
-    Fill in your answer here
+    Forks is for making changes to a repository that I don't have permission to, but at the end I can suggest changes because they are connected at some point.  Clone is for having a repository available in my local server.  Branches is for testint new features, etc and then maybe merge so I always have a version of my code working.
 
 What is the benefit of having a copy of the last known state of the remote
 stored locally?
 
-    Fill in your answer here
+    The benefit will be that I'm going to know if I'm ahead or behind the last state of the remote.  This is going to help me
+    because I can check that way what changes have been made and compare them between different versions of the code.
+    The sync will be easier.
 
 How would you collaborate without using Git or GitHub?  What would be easier,
 and what would be harder?
